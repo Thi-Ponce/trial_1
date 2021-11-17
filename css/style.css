@@ -1,8 +1,55 @@
-#nav-bar{
-    position:fixed
+body{
+   
 }
-
-body {
+#header{
+    background-color: royalblue;
+    width: 100vw;
+    height: 100px;
     display: flex;
-    flex: auto;
+    flex-direction: row;
+}
+#header-img{
+    object-fit: contain;
+}
+#nav-bar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu{
+    list-style: none;
+    width: 90vw;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    align-items: center;
+}
+#nav-link{
+    font-weight: 500;
+    padding-left: 50px;
+    
+}
+a {
+    text-decoration: none;
+}
+#section1{
+    width: 100vw;
+    height: 100vh;
+    background-color: royalblue;
+}
+#section2{
+    width: 100vw;
+    height: 100vh;
+    background-color: salmon;
+}
+#section3{
+    width: 100vw;
+    height: 100vh;
+    background-color: seagreen;
+}
+@media screen and (max-width=500px) {
+    body{
+        background-color: turquoise;
+    }
 }
